@@ -21,7 +21,7 @@ int main() {
 }
 ```
 &nbsp;
-## vector string 解
+## vector string 解 int
 ```cpp
 #include <iostream>
 using namespace std;
@@ -47,4 +47,33 @@ int main() {
 
 	return 0;
 }
+```
+&nbsp;
+##　vector string 解string
+```cpp
+#include <iostream>
+using namespace std;
+#include<string>
+#include<vector>
+int main() {
+	vector <string> z;
+	string a;
+	getline(cin, a);
+	int flag = 0;
+	z.push_back("");
+	for (int i = 0; i < a.size(); i++) {
+		if (a[i] != ' ') {
+			z[flag].push_back(a[i]);
+		}
+		else {
+			z.push_back("");
+			flag++;
+		}
+	}
+	for (int i = 0; i < z.size(); i++) {
+		cout << z[i] << endl;
+	}
+	return 0;
+}
+
 ```
