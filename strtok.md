@@ -49,7 +49,7 @@ int main() {
 }
 ```
 &nbsp;
-##　vector string 解string
+## vector string 解string
 ```cpp
 #include <iostream>
 using namespace std;
