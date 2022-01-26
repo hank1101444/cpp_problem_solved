@@ -22,6 +22,18 @@ int main() {
 }
 ```
 &nbsp;
+## 不使用getline 解
+```cpp
+	char a;
+	while (cin.get(a) && a!='\n') {
+		if (a != ' ') {
+			cout << a << endl;
+		}
+		
+	}
+```
+&nbsp;
+&nbsp;
 ## vector string 解 int
 ```cpp
 #include <iostream>
