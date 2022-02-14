@@ -1,3 +1,4 @@
+# 等號右邊以範圍最大的當型態, 所以只要右邊有一個long long int即可
 ```cpp
 #include <iostream>
 #include <vector>
