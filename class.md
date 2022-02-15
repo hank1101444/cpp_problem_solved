@@ -7,7 +7,7 @@ using namespace std;
 
 // Time class definition
 
-
+// 在上面為什麼可使用
 void test() {
 	Time t;
 	t.hour = 1;
