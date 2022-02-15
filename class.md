@@ -28,7 +28,7 @@ public:
 }; // end class Time
 
 
-// class 不能使用?
+// class 可使用 只是要放在 class function 裡
 class test {
 	Time t;
 	t.hour = 1;
